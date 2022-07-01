@@ -1,46 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Panda E-commerce</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Panda E-commerce</title>
-</head>
-
-<body class="container w-75 mt-3 border">
-  <!------------------------------------- Header--------------------------->
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
-        <img class="ms-4" src="/images/logo.png" alt="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navID">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navID">
-        <form class="col-5 ms-5"><input class="form-control" type="search" placeholder="Search">
-        </form>
-        <ul class="navbar-nav ms-5 gap-3 fw-bold">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Product</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-</body>
-
+  <body class="mt-3 border">
+    <!------------------------------------- Header--------------------------->
+    <header class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+          <img class="ms-4" src="/images/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navID"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navID">
+          <form class="col-5 ms-5">
+            <input class="form-control" type="search" placeholder="Search" />
+          </form>
+          <ul class="navbar-nav ms-5 gap-3 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <!--------------------------Carousol------------------------------->
+        <section class="container mt-5">
+          <div
+            id="carouselExampleFade"
+            class="carousel slide" style="background-color: #fceae8"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row align-items-center">
+                  <div class="col-md-7 ">
+                    <h1 class="fw-bold">Mega LCD Sports TV </h1>
+                    <p class="">This television has been made for the people. Who are very excited <br> to watch world on tv. And wanna feel like realistic. This television set <br> is very fair price. So, you can effort it very easily. </p>
+                    <h1 class="price">$1200</h1>
+                    <button class="btn text-white">Buy Now >></button>
+                  </div>
+                  <div class="col-md-5">
+                    <img
+                      src="/images/banner-images/tv.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row">
+                  <div class="col-md-7"> <h1 class="fw-bold">Mega LCD Sports TV </h1>
+                    <p class="">This television has been made for the people. Who are very excited <br> to watch world on tv. And wanna feel like realistic. This television set <br> is very fair price. So, you can effort it very easily. </p>
+                    <h1 class="price">$1200</h1>
+                    <button class="btn text-white">Buy Now >></button></div>
+                  <div class="col-md-5">
+                    <img
+                      src="/images/banner-images/headphone.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row">
+                  <div class="col-md-7"> <h1 class="fw-bold">Mega LCD Sports TV </h1>
+                    <p class="">This television has been made for the people. Who are very excited <br> to watch world on tv. And wanna feel like realistic. This television set <br> is very fair price. So, you can effort it very easily. </p>
+                    <h1 class="price">$1200</h1>
+                    <button class="btn text-white">Buy Now >></button></div>
+                  <div class="col-md-5">
+                    <img
+                      src="/images/banner-images/xbox.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
 </html>
