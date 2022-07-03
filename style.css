@@ -16,7 +16,7 @@
 }
 
 .shoes {
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .cat-1 {
@@ -33,4 +33,24 @@
 
 .card {
     text-align: justify;
+}
+
+.backpack {
+    margin-top: 70px;
+}
+
+.Subscribe {
+    background-color: #fceae8;
+    height: 350px;
+    margin-top: 70px;
+}
+
+.formheight {
+    height: 50px
+}
+
+.formbutton {
+    background-image: linear-gradient(30deg, rgb(255, 97, 136), rgb(255, 24, 82));
+    padding: 10px 30px;
+    color: white;
 }
